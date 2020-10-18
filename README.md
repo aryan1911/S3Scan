@@ -18,13 +18,13 @@ No worries if you don't have them. You'll install them in 'Installation' section
 * AWS account for access and secret token
 
 ### Installation
-Install Python Pip using your OS's package manager
+Install Python Pip using your OS's package manager.
 ```
 pip2 install beautifulsoup boto3
 git clone https://github.com/abhn/S3Scan.git
 cd S3Scan
 ```
-If you already have ```awscli``` installed and configured, you should have the necessary tokens with you. If not, follow the steps. 
+If you already have ```awscli``` installed and configured, you should have the necessary tokens with you. If not, follow the steps carefully. 
 
 Login to your AWS panel and generate your ACCESS_KEY and SECRET_KEY. Although fairly straightforward, if you are lost, [here is a guide](http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html). Now you can either add them to your .bashrc (recommended), or add them to the script itself (not recommended).
 
